@@ -4,6 +4,8 @@ let score = JSON.parse(localStorage.getItem('score')) || {
   ties:0
 };
 
+
+
 updateScoreElement();
 
 function playGame(playerMove) {
